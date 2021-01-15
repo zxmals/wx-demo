@@ -82,5 +82,15 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  addarea:function () {
+    wx.navigateTo({
+      url: '../operation/operation',
+    })
+  },
+
+  deletearea:function(e){
+
   }
 })
